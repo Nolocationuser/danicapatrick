@@ -5,8 +5,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Hero
-        title="Landing template for startups"
-        content="Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+        title="Welcome to Danica Patrick's Fan Club"
+        content="Explore the legacy of Danica Patrick, the trailblazing driver who has made history in the world of motorsports. Learn about her achievements, milestones, and the impact she continues to make both on and off the track."
         illustration={<HeroIllustration />}
       />
     </Layout>

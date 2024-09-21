@@ -6,3 +6,4 @@ A React implementation of [Davide Pacilio's](https://cruip.com/) free landing pa
 
 - Run `npm install`
 - Run `npm run dev`
+# danicapatrick

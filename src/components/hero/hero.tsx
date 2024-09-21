@@ -3,6 +3,7 @@ import { cn } from '@/utils/cn'
 import type { ReactNode } from 'react'
 import { useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal'
+import SubscriptionPackages from './SubscriptionPackages';
 
 type ScrollRevealRefElement = HTMLDivElement | HTMLHeadingElement | HTMLParagraphElement
 
@@ -53,23 +54,23 @@ function Hero({
         <div className="hero-inner relative lg:flex">
           <div className="hero-copy pb-16 pt-10 lg:min-w-[40rem] lg:pr-20 lg:pt-16">
             <div className="mx-auto w-full max-w-3xl">
-              <h1 className="mb-4 mt-0 text-4xl font-bold md:text-5xl " ref={addToScrollRevealRef}>
-                {title}
+              <h1 className="mb-4 mt-0 text-4xl font-bold md:text-5xl" ref={addToScrollRevealRef}>
+                Discover the Legacy of Danica Patrick
               </h1>
               <p className="prose prose-xl m-auto text-gray-500" ref={addToScrollRevealRef}>
-                {content}
+                Join us in celebrating the remarkable career of Danica Patrick, a pioneer in motorsports who has broken barriers and inspired countless fans with her achievements on and off the track.
               </p>
             </div>
 
             <div ref={addToScrollRevealRef}>
               <NewsletterForm
                 className="mx-auto mt-8 max-w-md lg:mx-0"
-                submitText="Get early access"
+                submitText="Get the Latest Updates"
                 onSubmit={onNewsletterSubmit}
               />
             </div>
           </div>
-
+          <SubscriptionPackages />
           {!!illustration && (
             <div className="relative -mx-6 py-10 lg:mx-0 lg:p-0">{illustration}</div>
           )}

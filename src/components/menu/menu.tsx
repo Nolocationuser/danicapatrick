@@ -4,7 +4,7 @@ const MENU_ITEMS = [
   { name: 'Contact', to: '/contact' },
   { name: 'About Us', to: '/about' },
   { name: "FAQ's", to: '/faqs' },
-  { name: 'Support', to: '/support' },
+  { name: 'Payment', to: '/payment' },
 ]
 
 function Menu({ className }: { className?: string }) {

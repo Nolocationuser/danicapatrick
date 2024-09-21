@@ -33,7 +33,7 @@ function Article({
 
           {imageSrc && (
             <ArticleMedia>
-              <ArticleImage alt={imageAlt!} src={imageSrc} />
+              <ArticleImage alt={imageAlt!} src={imageSrc}/>
             </ArticleMedia>
           )}
         </div>
